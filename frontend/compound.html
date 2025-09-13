@@ -1,0 +1,13 @@
+function calculateCompoundInterest(P, r, n, t) {
+  const A = P * Math.pow(1 + r / n, n * t);
+  return A;
+}
+
+// Example usage:
+const principal = 1000;   // $1000 initial investment
+const annualRate = 0.05;  // 5% interest rate
+const timesPerYear = 4;   // quarterly compounding
+const years = 3;          // for 3 years
+
+const amount = calculateCompoundInterest(principal, annualRate, timesPerYear, years);
+console.log(amount.toFixed(2)); // Output with 2 decimals

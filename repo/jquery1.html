@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Simple jQuery Example</title>
+  <!-- Include jQuery from CDN -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  
+  <script>
+    // This code runs after the page is fully loaded
+    $(document).ready(function() {
+      // When the button with id "myButton" is clicked...
+      $("#myButton").click(function() {
+        // Change the button text
+        $(this).text("Clicked!");
+      });
+    });
+  </script>
+</head>
+<body>
+  <button id="myButton">Click me</button>
+</body>
+</html>

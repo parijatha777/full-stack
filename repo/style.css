@@ -10,7 +10,22 @@ h1 {
 p {
   color: blue;
   font-size: 20px;
-} .class{
-    color: red;
-    
+}
+.about {
+  background-color: blue;
+  color: white;
+}
+
+.skills {
+  background-color: green;
+  color: white;
+}
+
+.projects {
+  background-color: red;
+  color: white;
+}
+.class{
+  button:hover;
+  background-color:aqua;
 }
